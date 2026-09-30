@@ -88,20 +88,27 @@ $$
 Para estados planos de tensión se verifica además:
 
 $$
-\sigma_{cp}
-=
-\sqrt{
-\sigma_x^2+
-\sigma_y^2-
-\sigma_x\sigma_y+
-3\tau_{xy}^2
-}
+\sigma_{cp}=\sqrt{\sigma_x^2+\sigma_y^2-\sigma_x\sigma_y+3\tau_{xy}^2}
 $$
 
 debiendo cumplirse:
 
 $$
-\sigma_{cp}\le\sigma_a
+\sigma_{cp}\leq\sigma_a
+$$
+
+También deben verificarse individualmente:
+
+$$
+|\sigma_x|\leq\sigma_a
+$$
+
+$$
+|\sigma_y|\leq\sigma_a
+$$
+
+$$
+|\tau_{xy}|\leq\tau_a
 $$
 
 ---
